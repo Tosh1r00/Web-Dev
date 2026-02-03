@@ -48,8 +48,8 @@ nav{
 /*кнопки*/
 .headerinput,
 #headerbutton {
-    height: 32px;        
-    padding: 4px 10px;   
+    height: 32px;
+    padding: 4px 10px;
     border-radius: 6px;
     margin: 0 7px;
 }
@@ -83,6 +83,7 @@ nav{
 /*main-body*/
 #mbody{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -92,7 +93,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1100px;   
+    max-width: 1100px;
     text-align: center;
 }
 
@@ -116,7 +117,7 @@ nav{
 
     height:50px;
     box-sizing: border-box;
-    padding:0 15px 0 15px;          
+    padding:0 15px 0 15px;
     border-radius: 6px;
 }
 
@@ -126,4 +127,82 @@ nav{
 }
 
 /*tarifs - mainbody*/
+.MainPart{
+    margin-top: 80px;
+}
+#tarifs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
 
+}
+
+.tart1{
+    background-color: lightgray;
+}
+
+/*first-block*/
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+
+    background-color: #f8f5f5;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    margin: 15px;
+}
+
+.card-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    border-radius:6px;
+    width: 100%;
+
+    box-sizing: border-box;
+
+}
+
+.card-top p{
+    margin: -16px 0 30px 0;
+    text-align: center;
+    color: #807e7e;
+    font-size: 14px;
+}
+
+.price-row{
+    display: flex;
+    height: 20px;
+}
+.currency, .period{
+    color: #bab9b9;
+    font-size: 12px;
+}
+
+.price, .unit{
+    font-weight: bold;
+    margin: 0 3px;
+}
+
+.cta{
+    display: flex; flex-wrap: wrap;
+    background-color: white ;
+
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    height: 40px;
+    max-height: 70px;
+    min-width: 70%;
+
+    margin-top: 10px;
+    cursor: pointer;
+}
