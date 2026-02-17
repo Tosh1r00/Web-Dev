@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+button{
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#decrease-btn{
+    background-color: black;
+    color: white;
+}
+
+#reset-btn {
+    background-color: grey;
+    color: white;
+}
+
+#increase-btn{
+    background-color: green;
+    color: white;
+}
+
+button:hover{
+    background-color: brown;
+}
+buttons{
+    margin-left: 20px;
+}
+.positive(
+color: green;
+)
+
+.negative(
+color: red;
+)
+
+.zero(
+color: black;
+)
